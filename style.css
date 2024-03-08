@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+  }
+  
+  .webheader {
+    width: 90%;
+    margin: auto auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  header {
+    background-color: #56a7dc;
+    color: #fff;
+    padding: 15px 0;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin: 5px;
+  }
+  .logo img {
+    width: 100px;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  nav ul li {
+    display: inline;
+    margin-left: 30px;
+  }
+  nav ul li a {
+    color: #fff;
+  }
+  nav ul li a:hover {
+    color: #ffc107;
+  }
+  h1{
+    text-align: center;
+  }
+
+  /* Estilos del cuerpo */
+.body {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .section {
+    width: 100%;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #9ad3f9;
+    text-align: justify;
+    border: 2px solid #000000;
+    border-radius: 10px;
+
+  }
+  .section h2:hover{
+    color: #ffc107;
+  }
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  h2 {
+    color: #333;
+    text-align: center;
+  }
+  a{
+    text-decoration: none;
+  }
+  p {
+    color: #666;
+  }
+  .member {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+  }
+  .member img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin: 10px;
+  }
+  #team{
+    width:fit-content;
+  }
+  #introduction{
+    align-self:stretch;
+  }
+  #introduction > p{
+    margin: 10px;
+  }
+  #contact{
+    width: auto;
+    align-self: stretch;
+    margin: 20px;
+  }
+  #contact> p{
+    margin: 10px;
+  }
+  

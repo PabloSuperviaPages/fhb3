@@ -4,51 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prácticas de FHiC - CodeCampus UB</title>
-    <!-- <link rel="stylesheet" href="./style.css" /> -->
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <p>
-      <center>
-        <img src="./img/logoFHiC.png" alt=“Gato” style="float:center;"/>
-      </center>
-      <ul style="float:inline-end">
-        <li><a href="./nosotros.html">Miembros</a></li>
-        <li><a href="./proyecto.html">Proyecto Web</a></li>
-        <li><a href="./contacto.html">Contacto</a></li>
-      </ul>
-    </p>
-    <h1>Web del Grupo B2</h1>
-    <h2>¡Bienvenidos a la página web del grupo B2!</h2>
-    <p>Aquí encontraréis toda la información relacionada con nuestro grupo y nuestro proyecto web <strong>CodeCampus UB</strong></p>
-    <h2>Miembros del grupo</h2>
-      <p>
+  <header>
+    <div class="webheader">
+      <div class="logo">
+        <img src="./img/logoFHiC.png" alt="Logo">
+      </div>
+      <nav>
         <ul>
-          <li>Xavier Marquez</li>
-            <img src="./img/foto_xevi.jpg" id="xevi" height="150" >
-            
-          <li>Raul Asins</li>
-          <img src="./img/download.png" id="raul" height="150">
-          
-          <li>Pablo Supervía</li>
-          <img src="./img/download.png" id="palo" height="150">
-
-          <li>Carlos Bellanco</li>
-          <img src="./img/download.png" id="carlos" height="150">
-
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./nosotros.html">Miembros</a></li>
+          <li><a href="./proyecto.html">Proyecto</a></li>
+          <li><a href="./contacto.html">Contacto</a></li>
         </ul>
+      </nav>
+    </div>
+  </header>
+  <h1>Web del Grupo B2</h1>
+  <main class="body">
+    <section id="introduction" class="section">
+      <a href="./proyecto.html"><h2>Información del proyecto</h2></a>
+      <p> Queremos crear un entorno donde los estudiantes puedan acceder a un sistema eficiente para preparar diversos exámenes de la carrera de Ingeniería Informática. 
+        Para lograrlo, organizaremos todas las asignaturas del Grado por curso y cuatrimestre, facilitando así su acceso. 
+        Además, se podrán realizar preguntas tipo test que ayudarán a los estudiantes a comprender los temas de estudio. 
+        Ofreceremos respuestas detalladas y soporte externo para garantizar la comprensión de las respuestas a las preguntas realizadas. 
+        Mas informacion en <a href="./proyecto.html">proyecto</a>
       </p>
-    <p>Más información del grupo en <a href="./nosotros.html">nosotros</a></p>
-    <h2>Información del proyecto</h2>
-    <p> Queremos crear un entorno donde los estudiantes puedan acceder a un sistema eficiente para preparar diversos exámenes de la carrera de Ingeniería Informática. 
-      Para lograrlo, organizaremos todas las asignaturas del Grado por curso y cuatrimestre, facilitando así su acceso. 
-      Además, se podrán realizar preguntas tipo test que ayudarán a los estudiantes a comprender los temas de estudio. 
-      Ofreceremos respuestas detalladas y soporte externo para garantizar la comprensión de las respuestas a las preguntas realizadas. 
-      Mas informacion en <a href="./proyecto.html">proyecto</a>
-    </p>
-    <h2>Contacto</h2>
-    <ul>
-      <li>Si tenéis alguna opinión, sugerencia sobre nuestro proyecto web, contactar con nosotros en <a href="./contacto.html">contacto</a></li>
-    </ul>
+    </section>
+  
+    <section id="team" class="section">
+      <a href="./nosotros.html"><h2>Nuestro Equipo</h2></a>
+      <div class="member">
+        <h3>Xavier Marquez</h3>
+        <img src="./img/foto_xevi.jpg">
+      </div>
+      <div class="member">
+        <h3>Raul Asins</h3>
+        <img src="./img/foto_xevi.jpg">
+      </div>
+      <div class="member">
+        <h3>Pablo Supervía</h3>
+        <img src="./img/foto_xevi.jpg">
+      </div>
+      <div class="member">
+        <h3>Carlos Bellanco</h3>
+        <img src="./img/foto_xevi.jpg">
+      </div>
+    </section>
+  </main>
+  <section id="contact" class="section">
+    <a href="./contacto.html"><h2>Contacto</h2></a>
+    <p>Si tenéis alguna opinión, sugerencia sobre nuestro proyecto web, contactar con nosotros en <a href="./contacto.html">contacto</a></p>
+  </section>
     <p>Copyright &copy; FHiC 23-24 - CodeCampus UB
       <img src="./img/logoFHiC.png" style="float: inline-end;" height=50;> 
     </p>
