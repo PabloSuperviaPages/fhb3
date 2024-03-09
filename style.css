@@ -104,10 +104,14 @@ body {
   #introduction > p{
     margin: 10px;
   }
+  #introduction > img{
+    max-width: 1600px;
+    margin: 10px;
+  }
   #contact{
     width: auto;
     align-self: stretch;
-    margin: 20px;
+    margin: 10px;
   }
   #contact> p{
     margin: 10px;
@@ -156,5 +160,38 @@ body {
     border-radius: 5px;
     background-color: #9ad3f9;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .section > p{
+    margin: 10px;
+  }
+
+  footer {
+    background-color: #56a7dc;
+    color: #fff;
+    height: 50px; 
+    margin-top: 10px; 
+    margin: 5px;
+    position: absolute; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: none; 
+    justify-content: space-between; 
+    align-items: center; 
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 0 10px;
+  }
+
+  footer img {
+    float: inline-end;
+    max-height: 30px; 
+  }
+  #details{
+    margin-top: 10px;
+    align-self:flex-end;
+    float: inline-start;
   }
   
