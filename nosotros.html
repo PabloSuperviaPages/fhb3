@@ -1,27 +1,4 @@
 <!DOCTYPE html>
-<style>
-  * {
-   box-sizing: border-box; 
-  }
-  body {
-    margin: 0;
-  }
-  #main {
-    display: flex;
-  }
-  #main > article {
-    flex: 20vw;
-  }
-
-  header, article{
-    padding: 1em;
-  }
-  header, footer {
-    background: steelblue;
-    height: 20vh;
-  }
-
-</style>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
@@ -30,40 +7,61 @@
     <link rel="stylesheet" href="./style_nosotros.css" />
   </head>
   <body>
-    <header>SOBRE NOSOTROS</header>
+    <header>
+      <div class="webheader">
+        <div class="logo">
+          <img src="./img/logoFHiC.png" alt="Logo">
+        </div>
+        <nav>
+          <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./nosotros.html">Miembros</a></li>
+            <li><a href="./proyecto.html">Proyecto</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <h1>SOBRE NOSOTROS</h1>
     <div id="main">
-      <article>
-        <h3>XAVIER MARQUEZ</h3>
-        <img src="./img/foto_xevi.jpg">
-        
-      
-      
-      
+      <article class="section">
+        <div class="member">
+          <img src="./img/foto_xevi.jpg" alt="Xavier Márquez">
+          <h3>XAVIER MÁRQUEZ</h3>
+          <p>Hola
+          </p>
+        </div>
       </article>
-      <article>
-        <h3>RAUL ASINS</h3>
-        <img src="./img/download.png">
-
-
-
-
+      <article class="section">
+        <div class="member">
+          <img src="./img/download.png" alt="Raul Asins">
+          <h3>RAUL ASINS</h3>
+          <p>Descripcion 1
+          </p>
+        </div>
       </article>
-      <article>
-        <h3>PABLO SUPERVIA</h3>
-        <img src="./img/download.png">
-
-
-
+      <article class="section">
+        <div class="member">
+          <img src="./img/download.png" alt="Pablo Supervia">
+          <h3>PABLO SUPERVIA</h3>
+          <p>Descripcion 2
+          </p>
+        </div>
       </article>
-      <article>
-        <h3>CARLOS BELLANCO</h3>
-        <img src="./img/download.png">
-
-
-
-
+      <article class="section">
+        <div class="member">
+          <img src="./img/download.png" alt="Carlos Bellanco">
+          <h3>CARLOS BELLANCO</h3>
+          <p>Descripcion 3
+          </p>
+        </div>
       </article>
     </div>
-    <footer></footer>
+    <footer>
+      <p>Copyright &copy; FHiC 23-24 - CodeCampus UB
+        <img src="./img/logoFHiC.png" height=30;>
+      </p>
+    </footer>
   </body>
-  </body>
+</html>
