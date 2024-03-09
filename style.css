@@ -112,4 +112,8 @@ body {
   #contact> p{
     margin: 10px;
   }
-  
+  .section img{
+    margin: 10px;
+    align-items: center;
+    display: flex;
+  }
