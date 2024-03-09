@@ -6,4 +6,4 @@
 * Pagina principal (codigo base):
    
 * Pagina principal (resultado):
-<img width="473" alt="imagen" src="https://pablosuperviapages.github.io/FHB2/">
+<A HREF="https://pablosuperviapages.github.io/FHB2/">Página resultado</A>
