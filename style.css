@@ -50,16 +50,13 @@ body {
 .body {
     width: 100%;
     display: flex;
-    box-sizing: border-box;
     flex-direction: row;
-    align-items: center;
-    padding: 10px;
+    box-sizing: border-box;
   }
   
   .section {
     width: 100%;
     margin-top: 10px;
-    margin-right: 10px;
     margin-left: 10px;
     background-color: #9ad3f9;
     text-align: justify;
@@ -93,19 +90,22 @@ body {
   .member img {
     max-width: 100px;
     border-radius: 50%;
-    margin: 10px;
+    margin: 5px;
   }
   #team{
+    display: flex;
+    flex-direction: column;
     width:fit-content;
   }
+
   #introduction{
-    align-self:stretch;
+    align-self:auto;
   }
   #introduction > p{
     margin: 10px;
   }
   #introduction > img{
-    max-width: 1600px;
+    max-width: 95%;
     margin: 10px;
   }
   #contact{
